@@ -1,0 +1,21 @@
+.site-branding {
+  float: left;
+  width: auto;
+}
+
+.site-header {
+
+  a {
+    color: $color-primary;
+
+    &:visited {
+      color: $color-primary;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-secondary;
+    }
+  }
+
+}

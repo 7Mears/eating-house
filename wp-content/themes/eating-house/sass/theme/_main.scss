@@ -1,0 +1,27 @@
+body {
+  font-weight: $font__weight;
+  font-size: $font__size;
+  letter-spacing: $font__spacing;
+}
+
+.site-header,
+.site-footer,
+.home-hero,
+.home-about,
+.home-reservations,
+.home-menu {
+  width: $wrap;
+  margin: 0 auto;
+}
+
+.home-about,
+.home-reservations,
+.home-menu {
+  h2 {
+    @include font-fancy($fontFancySize: 100px);
+  }
+  h3 {
+    margin-top: -70px;
+    padding-left: $pad;
+  }
+}
