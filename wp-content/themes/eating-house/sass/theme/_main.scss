@@ -12,4 +12,8 @@ body {
 .home-menu {
   width: $wrap;
   margin: 0 auto;
+
+  @media screen and (max-width: $break-large) {
+    width: 100%;
+  }
 }

@@ -22,12 +22,16 @@
 .home-menu--img {
   width: 45%;
   border-radius: $radius;
+
+  @media screen and (max-width: $break-medium) {
+    display: none;
+  }
 }
 
 .home-about,
 .home-reservations,
 .home-menu {
-  padding: ($pad * 2) $pad;
+  padding: ($pad * 2);
   @include clearfix();
 }
 
@@ -35,4 +39,8 @@
 .home-reservations--content,
 .home-menu--content {
   width: 45%;
+
+  @media screen and (max-width: $break-medium) {
+    width: 100%;
+  }
 }

@@ -10,6 +10,9 @@
 
 .home-reservations {
   padding: 200px 0;
+  @media screen and (max-width: $break-medium) {
+      padding: ($pad * 2); 
+  }
 
   img {
     float: left;

@@ -697,6 +697,14 @@ body {
 .home-menu {
   width: 1200px;
   margin: 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .site-header,
+    .site-footer,
+    .home-hero,
+    .home-about,
+    .home-reservations,
+    .home-menu {
+      width: 100%; } }
 
 .home-about,
 .home-reservations,
@@ -723,11 +731,16 @@ body {
 .home-menu--img {
   width: 45%;
   border-radius: 10px; }
+  @media screen and (max-width: 900px) {
+    .home-about--img,
+    .home-reservations--img,
+    .home-menu--img {
+      display: none; } }
 
 .home-about,
 .home-reservations,
 .home-menu {
-  padding: 50px 25px;
+  padding: 50px;
   content: "";
   display: table; }
 
@@ -735,6 +748,11 @@ body {
 .home-reservations--content,
 .home-menu--content {
   width: 45%; }
+  @media screen and (max-width: 900px) {
+    .home-about--content,
+    .home-reservations--content,
+    .home-menu--content {
+      width: 100%; } }
 
 #hero {
   background: url("http://localhost/eating-house/wp-content/uploads/2014/12/wine-bg1.jpg");
@@ -789,6 +807,9 @@ body {
 
 .home-reservations {
   padding: 200px 0; }
+  @media screen and (max-width: 900px) {
+    .home-reservations {
+      padding: 50px; } }
   .home-reservations img {
     float: left;
     margin-right: 5%; }
