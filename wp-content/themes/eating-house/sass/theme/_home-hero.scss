@@ -3,11 +3,12 @@
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
+  min-width: 100%;
 }
 
 .home-hero--welcome {
   width: 500px;
-  height: 300px;
+  height: 350px;
   position: absolute;
   top:0;
   bottom: 0;
@@ -18,11 +19,22 @@
 
   h2 {
     @include font-fancy($fontFancySize: 150px);
+    text-shadow: 3px 3px rgba(darken($color-secondary, 40%), 0.4);
   }
 
   h1 {
     margin-top: -100px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      bottom: -20px;
+      left: 45%;
+      border: 2px solid $white;
+      width: 10%;
+    }
   }
 
 }

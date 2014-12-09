@@ -1,0 +1,18 @@
+#reservations {
+  background: url('http://localhost/eating-house/wp-content/uploads/2014/12/bread-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-reservations--content {
+  float: right;
+}
+
+.home-reservations {
+  padding: 200px 0;
+
+  img {
+    float: left;
+    margin-right: 5%;
+  }
+}

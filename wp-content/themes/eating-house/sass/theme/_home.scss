@@ -1,5 +1,38 @@
 .home-about,
 .home-reservations,
 .home-menu {
-  padding: ($pad * 2) 0;
+  text-align: center;
+
+  h2 {
+    @include font-fancy($fontFancySize: 100px);
+  }
+  h3 {
+    margin-top: -70px;
+  }
+}
+
+#about,
+#menu {
+  color: $black;
+  background: $white;
+}
+
+.home-about--img,
+.home-reservations--img,
+.home-menu--img {
+  width: 45%;
+  border-radius: $radius;
+}
+
+.home-about,
+.home-reservations,
+.home-menu {
+  padding: ($pad * 2) $pad;
+  @include clearfix();
+}
+
+.home-about--content,
+.home-reservations--content,
+.home-menu--content {
+  width: 45%;
 }

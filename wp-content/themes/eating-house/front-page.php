@@ -38,10 +38,10 @@
   <div class="home-hero">
 
     <div class="home-hero--welcome">
-      <h2>Welcome</h2>
-      <h1>Eating House</h1>
-      <p>404 112th St. Saskatoon Saskatchewan
-      <br />Phone: (306) 241-6474</p>
+      <h2>Welcome to</h2>
+      <h1>The Eating House</h1>
+      <p>404 112th St. Saskatoon
+      <br />(306) 241-6474</p>
     </div>
 
   </div>
@@ -55,7 +55,7 @@
       <p>Eating House is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.</p>
       <a href="#" class="more-link">About Us</a>
     </div>
-    <img src="/images/" class="home-about--img">
+    <img src="http://localhost/eating-house/wp-content/uploads/2014/12/about.jpg" class="home-about--img">
   </div>
 </section><!-- /about -->
 
@@ -67,7 +67,7 @@
       <p>We promise an intimate and relaxed dining experience that offers something different to local and foreign patrons and ensures you enjoy a memorable food experience every time.</p>
       <a href="#" class="more-link">Make a reservation</a>
     </div>
-    <img src="/images/" class="home-reservations--img">
+    <img src="http://localhost/eating-house/wp-content/uploads/2014/12/grapes.jpg" class="home-reservations--img">
   </div>
 </section><!-- /reservations -->
 
@@ -81,10 +81,10 @@
     </div>
 
     <div class ="home-menu--img">
-      <img src="/images/">
-      <img src="/images/">
-      <img src="/images/">
-      <img src="/images/">
+      <img src="http://localhost/eating-house/wp-content/uploads/2014/12/burger.jpg">
+      <img src="http://localhost/eating-house/wp-content/uploads/2014/12/egg.jpg">
+      <img src="http://localhost/eating-house/wp-content/uploads/2014/12/yellow-plate.jpg">
+      <img src="http://localhost/eating-house/wp-content/uploads/2014/12/pasta.jpg">
     </div>
   </div>
 </section><!-- /menu -->

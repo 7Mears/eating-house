@@ -1,3 +1,15 @@
+.more-link {
+	background: $light-black;
+	padding: ($pad / 2) $pad;
+	border-radius: $radius;
+	text-decoration: none;
+	transition: 0.4s ease;
+
+	&:hover {
+		background: $black;
+	}
+}
+
 hr {
 	background-color: $color__background-hr;
 	border: 0;

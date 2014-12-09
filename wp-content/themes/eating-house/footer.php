@@ -10,9 +10,7 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info">
-		<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'eating-house' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'eating-house' ), 'WordPress' ); ?></a>
-		<span class="sep"> | </span>
-		<?php printf( __( 'Theme: %1$s by %2$s.', 'eating-house' ), 'Eating House', '<a href="http://www.jordanmears.com" rel="designer">Jordan Mears</a>' ); ?>
+		© <a href="#">Eating House</a>   •   404 112th St. Saskatoon Saskatchewan   •   Tel: <a href="#">(306) 241-6474</a>   •   Handcrafted by <a href="http://www.jordanmears.com">Mears</a>
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
 
